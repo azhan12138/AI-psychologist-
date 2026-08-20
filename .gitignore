@@ -1,0 +1,29 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+coverage/
+
+# Runtime models are downloaded separately
+models/
+
+# Secrets: commit the example only
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local data and logs
+*.log
+logs/
+conversations/
+session-data/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.tsbuildinfo

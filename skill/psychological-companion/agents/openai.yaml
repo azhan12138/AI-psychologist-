@@ -1,0 +1,4 @@
+interface:
+  display_name: "心理陪伴"
+  short_description: "自然陪伴日常情绪，并按需提供疾病知情与现实安全支持"
+  default_prompt: "使用 $psychological-companion 陪我自然地聊聊现在的感受；除非我需要，不要急着评估或给建议。"
