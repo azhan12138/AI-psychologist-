@@ -66,6 +66,10 @@ models/sherpa-onnx-streaming-zipformer-ctc-zh-int8-2025-06-30/
 
 ## Skill 工作方式
 
+![心理陪伴系统整体设计框架](docs/images/system-architecture.png)
+
+整体设计以日常陪伴为默认入口，将评估、计划和疾病知识设为按需能力；一旦出现现实安全信号，安全流程优先于其他路径。隐私最小化、用户自主和清晰能力边界贯穿输入、路由、回复与长期复盘。
+
 核心规则位于 [`skill/psychological-companion`](skill/psychological-companion)。后端不会把所有疾病资料一股脑塞给模型，而是先由确定性路由判断当前需要：
 
 ```text
